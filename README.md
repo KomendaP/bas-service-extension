@@ -6,6 +6,7 @@ This repository contains official release builds (.vsix files) of the BAS Servic
 
 | Version                    | Release Date | Changes         | Download Link                                       |
 | -------------------------- | ------------ | --------------- | --------------------------------------------------- |
+| [2.0.0](CHANGELOG.md#v200) | 2025-05-27 | Fix package build by updating esbuild configuration to bundle node_modules and remove iconBrowserProvider registration from production mode | [Download](releases/bas-service-2.0.0.vsix) |
 | [0.0.1](CHANGELOG.md#v001) | 2025-02-04   | Initial release | [Download](releases/archive/bas-service-0.0.1.vsix) |
 
 ## Repository Structure
