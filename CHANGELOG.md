@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v2.0.7]
+
+- feat: Implement subscriber ID generation for state management
+- feat: Add Subscribers view panel for developer tools
+- feat: Enhance accordion component with on expand/collapse props and fire action on Expand for requests in sidebar
+- refactor: Remove StrictMode wrapper from multiple view components for cleaner rendering
+- feat: Fixers Sidebar layout overflow scrolling and improve  scrollbar styles
+- feat: Add FavoritesPanel component and ClearButton for response management
+- style: Update PresetItem component styles for improved layout and interaction
+
 ## [v2.0.0]
 
 - initialize project structure with essential configuration files and components
@@ -80,28 +90,77 @@ All notable changes to this project will be documented in this file.
 
 ## [v0.0.1]
 
-- Initial
-- ide-magic command
-- basclient command
-- basclient settings
-- Create requests from schema command
-- Commands module separation
-- Adds docker clear before ide-magic
-- Adds duplicate request file command
-- Create request from schema
-- vite
-- JsonTextArea
-- Increment
-- Adds 'Open Vite sandbox' command
-- Icon
-- Sidebar
-- Adds service name and service version into Sidebar header
-- Adds Button component and icons
-- Request panel
-- Request list accordion for sidebar
-- feat: add request handling UI components and sidebar improvements
-- feat: implement request preview functionality
-- feat: add response schema support and refactor JSON utils
-- feat: implement BAS client request handling
-- feat: update Input component to use FontAwesome icons and adjust package.json scripts
+- initialize project structure with essential configuration files and components
+- refactor: update project structure and dependencies, remove unused files, and enhance utility functions
+- feat: Webviews for Sidebar and Request Panel
+- feat: add development environment configuration and enhance webview settings
+- refactor: improve webview initialization in Sidebar and Request views
+- refactor: rename commands and update view identifiers for consistency
+- refactor: remove getProjectName utility and update sidebar provider to use schema cache
+- feat: add request action buttons and nodemon configuration for development
+- feat: add execute ide-magic command and update request panel functionality
+- feat: implement state management and add state tree provider for improved UI state handling
+- feat: Fixes schema subscription and parsing issues
+- feat: add State/Actions management view
+- feat: enhance message handling and update constants for improved request panel functionality
+- feat: refactor state management and messaging services
+- feat: implement context menu commands for state and message handling
+- feat: update schema handling and messaging service integration
+- feat: replace messaging service with state manager service for message handling
+- feat: remove tooltip display for message and state tree providers
+- feat: enhance messaging and state management
+- feat: add favorite functionality for requests and update state management
+- feat: enhance state management and messaging in sidebar and favorite button components
+- feat: add preset and environment types, refactor request panel commands, and enhance sidebar structure
+- feat: update .gitignore and add VSCode launch and task configurations
+- feat: add favorite functionality to presets and requests, enhance state management, and update messaging
+- feat: refactor import aliases for vite webview
+- feat: add commands to open request and response schemas
+- feat: add close request page command
+- feat: restructure components
+- feat: fixes initialization for Sidebar
+- feat: add SEND_REQUEST command and enhance service name handling
+- feat: add version field to UPDATE_SERVICE_NAME message type
+- feat: refactor webview handling by renaming and consolidating view classes
+- feat: enhance PageView with unique identifiers and improve request handling
+- feat: add development tasks for webview and enhance build scripts
+- feat: enhance webview development experience with HMR
+- feat: improve state management cleanup in openRequestPage command
+- feat: enhance RequestView and Splitter components with improved state handling and dynamic resizing
+- Add toggle hidden state fields functionality
+- feat: add FontAwesome icons support with filtering and SVG generation
+- feat: refactor icon providers to use webview and add filtering functionality
+- feat: implement dynamic loading of VS Code codicons and enhance icon handling
+- feat: update copilot instructions with enhanced project structure, file naming conventions, and communication patterns
+- feat: add command to open BAS settings and update configuration properties
+- feat: simplify codicon CSS file resolution by using require.resolve
+- feat: add hot module replacement for extension code in development mode
+- feat: remove unused FontAwesome and codicon tree provider implementations
+- feat: Add Icon Browser with VS Code and FontAwesome icons support
+- feat: Enhance Icon Browser with clipboard functionality and icon filtering
+- feat: Improve layout and accessibility of icon browser and accordion components
+- refactor: Fixes JsonTextArea component edit state
+- feat: Implement useDebounce hook and integrate it into JsonTextArea for improved performance refactor: Update Button component's primary variant color for better visibility
+- feat: Add action creators for BAS Service extension and update TypeScript configuration for store actions and reducers
+- feat: Implement command execution handler and message type for executing commands
+- Refactor Splitter and Tabs components for improved readability and performance
+- feat: Update TypeScript configuration to include new paths for views and improve source map settings
+- Refactor imports and update path aliases for store and shared modules
+- feat: Add app and presets reducers with initial state and action handling
+- feat: Introduce vscMessages utility for consistent error and information messaging
+- refactor: Simplify message payload structure in request preset actions
+- fix: Update handleAction to directly pass name instead of wrapping in payload
+- feat: Add preset reducer state slice - Fixes combineReducers and useDebounce methods
+- feat: Refactor BAS Service extension with new commands and improved functionality
+- feat: Provide response output of runBasClient into ResponsePreview component
+- refactor: Cancel Edit on Esk button for preset rename
+- refactor: Replace lastRequest and lastPreset with activeRequest and activePreset in state management
+- feat: Implement CopyButton component and integrate clipboard functionality
+- feat: Add persistence configuration to state manager for selective state storage
+- feat: Refactor request handling to use preset object for improved state management
+- refactor: Organize type imports and create a dedicated types file for better structure
+- feat: Fixes all lint, prettier and deps circular issues
+- feat: Update environment handling and add date formatting utilities
+- feat: Add build directory creation to package script for proper packaging
+- Fix package build by updating esbuild configuration to bundle node_modules and remove iconBrowserProvider registration from production mode
 
