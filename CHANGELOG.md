@@ -2,17 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v2.0.8]
+
+- feat: Implement temporary file creation for payload and enhance command execution flow
+
 ## [v2.0.7]
-
-- feat: Implement subscriber ID generation for state management
-- feat: Add Subscribers view panel for developer tools
-- feat: Enhance accordion component with on expand/collapse props and fire action on Expand for requests in sidebar
-- refactor: Remove StrictMode wrapper from multiple view components for cleaner rendering
-- feat: Fixers Sidebar layout overflow scrolling and improve  scrollbar styles
-- feat: Add FavoritesPanel component and ClearButton for response management
-- style: Update PresetItem component styles for improved layout and interaction
-
-## [v2.0.0]
 
 - initialize project structure with essential configuration files and components
 - refactor: update project structure and dependencies, remove unused files, and enhance utility functions
@@ -87,6 +81,23 @@ All notable changes to this project will be documented in this file.
 - feat: Update environment handling and add date formatting utilities
 - feat: Add build directory creation to package script for proper packaging
 - Fix package build by updating esbuild configuration to bundle node_modules and remove iconBrowserProvider registration from production mode
+- feat: Implement subscriber ID generation for state management
+- feat: Add Subscribers view panel for developer tools
+- feat: Enhance accordion component with on expand/collapse props and fire action on Expand for requests in sidebar
+- refactor: Remove StrictMode wrapper from multiple view components for cleaner rendering
+- feat: Fixers Sidebar layout overflow scrolling and improve  scrollbar styles
+- feat: Add FavoritesPanel component and ClearButton for response management
+- style: Update PresetItem component styles for improved layout and interaction
+
+## [v2.0.0]
+
+- feat: Implement subscriber ID generation for state management
+- feat: Add Subscribers view panel for developer tools
+- feat: Enhance accordion component with on expand/collapse props and fire action on Expand for requests in sidebar
+- refactor: Remove StrictMode wrapper from multiple view components for cleaner rendering
+- feat: Fixers Sidebar layout overflow scrolling and improve  scrollbar styles
+- feat: Add FavoritesPanel component and ClearButton for response management
+- style: Update PresetItem component styles for improved layout and interaction
 
 ## [v0.0.1]
 
